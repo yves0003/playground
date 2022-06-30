@@ -2,6 +2,8 @@ import React, { FC, useState, createElement } from "react";
 import { useId } from "@reach/auto-id";
 import { styled, setup, DefaultTheme } from "goober";
 
+/**res */
+
 import Editor from "./Editor";
 import Result from "./Result";
 import { ISnippet, IEditorTabs, IResultTabs } from "./types";
